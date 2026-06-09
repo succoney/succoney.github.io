@@ -368,7 +368,8 @@ title: Linxuan Du
         <h3>Research Experience</h3>
         <p><strong>Master Student at Soochow University</strong> &nbsp; <em>2025.09 - Present</em></p>
         <ul>
-          <li>Advised by <a href="#">Li Juntao and Liang Xiaobo</a>.</li>
+          <li>Advised by <a href="#">Juntao Li</a>.</li>
+          <li>Advised by <a href="#">Xiaobo Liang</a>.</li>
           <li>
             Research topics include NLP, LLM agents, Reflection, Memory, and Reasoning.
           </li>
@@ -396,7 +397,7 @@ title: Linxuan Du
 
           <div>
             <div class="pub-title">
-              <a href="#">[ACL26]Paper Title: Escaping the Echo Trap: On Credit Assignment Failure in Multi-turn LLM Self-Reflection</a>
+              <a href="#">[ACL26]Escaping the Echo Trap: On Credit Assignment Failure in Multi-turn LLM Self-Reflection</a>
             </div>
 
             <div class="pub-authors">
