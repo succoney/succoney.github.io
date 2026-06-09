@@ -420,7 +420,7 @@ title: Linxuan Du
         <ul class="award-list">
           <li>LanqiaoCup Programming Competition - Second Prize (National Level, Individual Competition)</li>
           <li>Computer Design Competition of China - Thrid Prize (National Level, Artificial Intelligence Track)</li>
-          <li>Core members of national-level college student innovation and entrepreneurship projects(National Level) - Second Member</li>
+          <li>Core members of national-level college student innovation and entrepreneurship projects - Second Member (National Level)</li>
           <li>Soochow University Innovation and Entrepreneurship Special Scholarship</li>
         </ul>
       </section>
