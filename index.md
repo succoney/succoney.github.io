@@ -328,8 +328,6 @@ title: Linxuan Du
     <a href="#publications">Publications</a>
     <a href="#honors">Honors and Awards</a>
     <a href="#education">Educations</a>
-    <a href="#talks">Invited Talks</a>
-    <a href="#internships">Internships</a>
   </nav>
 
   <div class="page" id="homepage">
