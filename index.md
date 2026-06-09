@@ -366,7 +366,7 @@ title: Linxuan Du
         <h3>Research Experience</h3>
         <p><strong>Master Student at Soochow University</strong> &nbsp; <em>2025.09 - Present</em></p>
         <ul>
-          <li>Advised by <a href="#">Juntao Li</a>and </li><li><a href="#">Xiaobo Liang</a>.</li>
+          <li>Advised by <a href="#">Juntao Li</a> and <a href="#">Xiaobo Liang</a>.</li>
           <li>
             Research topics include NLP, LLM agents, Reflection, Memory, and Reasoning.
           </li>
