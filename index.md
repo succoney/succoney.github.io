@@ -396,7 +396,7 @@ title: Linxuan Du
 
           <div>
             <div class="pub-title">
-              <a href="#">Paper Title: Escaping the Echo Trap: On Credit Assignment Failure in Multi-turn LLM Self-Reflection</a>
+              <a href="#">[ACL26]Paper Title: Escaping the Echo Trap: On Credit Assignment Failure in Multi-turn LLM Self-Reflection</a>
             </div>
 
             <div class="pub-authors">
