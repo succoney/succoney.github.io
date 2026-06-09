@@ -345,7 +345,7 @@ title: Linxuan Du
       <p class="role">Master Student</p>
       <p class="role"><strong>ML/NLP Researcher</strong></p>
 
-      <div class="profile-line">📍 Shanghai, China</div>
+      <div class="profile-line">📍 Suzhou, China</div>
       <div class="profile-line">✉️ <a href="mailto:your_email@example.com">Email</a></div>
       <div class="profile-line">🐙 <a href="https://github.com/succoney">Github</a></div>
       <div class="profile-line">🎓 <a href="#">Google Scholar</a></div>
