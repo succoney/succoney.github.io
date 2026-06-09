@@ -76,8 +76,10 @@
     }
 
     .sidebar {
-      text-align: left;
-      font-size: 14px;
+      position: sticky;
+      top: 70px;
+      align-self: start;
+      height: fit-content;
     }
 
     .avatar {
