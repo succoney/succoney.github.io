@@ -339,10 +339,10 @@ title: Linxuan Du
     <aside class="sidebar">
       <!-- 如果你有头像，把头像上传到 assets/img/avatar.jpg，然后把下面这个 div 换成 img -->
       <!-- <img class="avatar" src="assets/img/avatar.jpg" alt="Linxuan Du"> -->
-      <img class="avatar-placeholder">LD</img>
+      <img class="avatar" src="assets/img/avatar.jpg" alt="Linxuan Du">
 
       <div class="name">Linxuan Du</div>
-      <p class="role">Ph.D. Student</p>
+      <p class="role">Master Student</p>
       <p class="role"><strong>ML/NLP Researcher</strong></p>
 
       <div class="profile-line">📍 Shanghai, China</div>
