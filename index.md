@@ -350,7 +350,7 @@ title: Linxuan Du
         <h2>🎓 About Me</h2>
 
         <p>
-          I am <strong>Linxuan Du</strong>, a student / researcher interested in
+          I am <strong>Linxuan Du</strong>, a student interested in
           <strong>Large Language Models</strong>, <strong>LLM Reasoning</strong>, <strong>LLM Agents</strong>, and <strong>Natural Language Processing</strong>.
         </p>
 
