@@ -339,10 +339,10 @@ title: Linxuan Du
 
       <div class="name">Linxuan Du</div>
       <p class="role">Master Student</p>
-      <p class="role"><strong>ML/NLP Researcher</strong></p>
+      <p class="role"><strong>LLM Researcher</strong></p>
 
       <div class="profile-line">📍 Suzhou, China</div>
-      <div class="profile-line">✉️ <a href="mailto:lxdu@stu.suda.edu.cn">lxdu@stu.suda.edu.cn</a>lxdu@stu.suda.edu.cn</div>
+      <div class="profile-line">✉️ <a href="mailto:lxdu@stu.suda.edu.cn">lxdu@stu.suda.edu.cn</a></div>
       <div class="profile-line">🐙 <a href="https://github.com/succoney">Github</a></div>
     </aside>
 
@@ -370,7 +370,7 @@ title: Linxuan Du
         <ul>
           <li>Advised by <a href="#">Li Juntao and Liang Xiaobo</a>.</li>
           <li>
-            Research topics include NLP, LLM agents, reflection, and reasoning.
+            Research topics include NLP, LLM agents, Reflection, Memory, and Reasoning.
           </li>
         </ul>
       </section>
@@ -378,7 +378,7 @@ title: Linxuan Du
       <section id="news">
         <h2>📰 News</h2>
         <ul>
-          <li><strong>2026.04</strong>: The paper titled Escaping the Echo Trap was received on ACL 2026 MainConference</li>
+          <li><strong>2026.04</strong>: The paper titled "Escaping the Echo Trap ..." was received on ACL 2026 MainConference</li>
           <li><strong>2026.03</strong>: Started research on LLM agents and agent memory.</li>
         </ul>
       </section>
@@ -392,24 +392,20 @@ title: Linxuan Du
 
         <div class="publication">
           <div class="pub-img">
-            Paper Figure 1
-            <!-- 如果有论文图片，替换成：
             <img src="assets/img/pub1.png" alt="Paper Figure 1">
-            -->
           </div>
 
           <div>
             <div class="pub-title">
-              <a href="#">Paper Title: A Method for Efficient and Reliable LLM Reasoning</a>
+              <a href="#">Paper Title: Escaping the Echo Trap: On Credit Assignment Failure in Multi-turn LLM Self-Reflection</a>
             </div>
 
             <div class="pub-authors">
-              <strong>Linxuan Du</strong>, Author A, Author B, Author C
+              <strong>Linxuan Du</strong>*, Guangquan Xue*, Xiaobo Liang, Qipeng Huang, Yuyang Ding, Xinyu Shi, Zhang Yijun, Ji Qi, Wenpeng Zhu, Juntao Li, Min Zhang
             </div>
 
             <p class="pub-desc">
-              <strong>TL;DR:</strong> We propose a framework that improves reasoning,
-              reliability, and efficiency for large language model agents.
+              <strong>TL;DR:</strong> We propose the <strong>Tree-structured Advantage Estimation (TRAE)</strong> framework, which gives more fine-grained rewards to each reflection step in multi-turn reinforcement learning and helps solve the Echo Trap problem in multi-turn reflection.
             </p>
 
             <div class="badges">
