@@ -1,7 +1,3 @@
----
-layout: null
-title: Linxuan Du
----
 <html lang="en">
 <head>
   <meta charset="UTF-8">
