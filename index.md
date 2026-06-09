@@ -335,8 +335,6 @@ title: Linxuan Du
   <div class="page" id="homepage">
 
     <aside class="sidebar">
-      <!-- 如果你有头像，把头像上传到 assets/img/avatar.jpg，然后把下面这个 div 换成 img -->
-      <!-- <img class="avatar" src="assets/img/avatar.jpg" alt="Linxuan Du"> -->
       <img class="avatar" src="assets/img/avatar.jpg" alt="Linxuan Du">
 
       <div class="name">Linxuan Du</div>
@@ -344,8 +342,8 @@ title: Linxuan Du
       <p class="role"><strong>ML/NLP Researcher</strong></p>
 
       <div class="profile-line">📍 Suzhou, China</div>
-      <div class="profile-line">✉️ lxdu@stu.suda.edu.cn<a href="mailto:lxdu@stu.suda.edu.cn">Email</a></div>
-      <div class="profile-line">🐙 https://github.com/succoney<a href="https://github.com/succoney">Github</a></div>
+      <div class="profile-line">✉️ <a href="mailto:lxdu@stu.suda.edu.cn">lxdu@stu.suda.edu.cn</a>lxdu@stu.suda.edu.cn</div>
+      <div class="profile-line">🐙 <a href="https://github.com/succoney">Github</a></div>
     </aside>
 
     <main class="content">
@@ -355,43 +353,24 @@ title: Linxuan Du
 
         <p>
           I am <strong>Linxuan Du</strong>, a student / researcher interested in
-          <strong>Large Language Models</strong>,<strong>LLM Reasoning</strong>, <strong>LLM Agents</strong>, and <strong>Natural Language Processing</strong>.
+          <strong>Large Language Models</strong>, <strong>LLM Reasoning</strong>, <strong>LLM Agents</strong>, and <strong>Natural Language Processing</strong>.
         </p>
 
         <p>
-          My research focuses on enhance the capability to complete difficult problem of LLM / Agent by reflection and memory.
+          My research focuses on enhance the capability LLM / Agent to complete difficult problem by reflection or memory.
         </p>
 
         <p>
-          I am currently working on topics related to agent memory, skill learning,
-          reasoning optimization, and robust decision making.
+          I am currently working on topics related to agent memory, experience extraction and utilization,
+          and reasoning optimization.
         </p>
 
         <h3>Research Experience</h3>
-
-        <p><strong>Research Intern at Your Lab / Company</strong> &nbsp; <em>2025.06 - Present</em></p>
+        <p><strong>Master Student at Soochow University</strong> &nbsp; <em>2025.09 - Present</em></p>
         <ul>
+          <li>Advised by <a href="#">Li Juntao and Liang Xiaobo</a>.</li>
           <li>
-            Working on reinforcement learning and reasoning for large language model agents.
-          </li>
-          <li>
-            Maintaining research codebase and conducting experiments on agent memory and tool use.
-          </li>
-          <li>
-            Related topics:
-            <ul>
-              <li>LLM Agents and reasoning optimization.</li>
-              <li>Agent memory and experience retrieval.</li>
-              <li>Skill learning and scalable agent systems.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <p><strong>Ph.D. Student / Master Student at Your University</strong> &nbsp; <em>2023.09 - Present</em></p>
-        <ul>
-          <li>Advised by <a href="#">Your Advisor</a>.</li>
-          <li>
-            Research topics include NLP, LLM agents, robust learning, and reasoning.
+            Research topics include NLP, LLM agents, reflection, and reasoning.
           </li>
         </ul>
       </section>
@@ -399,9 +378,8 @@ title: Linxuan Du
       <section id="news">
         <h2>📰 News</h2>
         <ul>
-          <li><strong>2026.01</strong>: Personal homepage launched.</li>
-          <li><strong>2025.12</strong>: One paper / project released.</li>
-          <li><strong>2025.09</strong>: Started research on LLM agents and memory systems.</li>
+          <li><strong>2026.04</strong>: The paper titled Escaping the Echo Trap was received on ACL 2026 MainConference</li>
+          <li><strong>2026.03</strong>: Started research on LLM agents and agent memory.</li>
         </ul>
       </section>
 
