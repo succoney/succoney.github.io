@@ -2,8 +2,6 @@
 layout: null
 title: Linxuan Du
 ---
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -346,10 +344,8 @@ title: Linxuan Du
       <p class="role"><strong>ML/NLP Researcher</strong></p>
 
       <div class="profile-line">📍 Suzhou, China</div>
-      <div class="profile-line">✉️ <a href="mailto:your_email@example.com">Email</a></div>
-      <div class="profile-line">🐙 <a href="https://github.com/succoney">Github</a></div>
-      <div class="profile-line">🎓 <a href="#">Google Scholar</a></div>
-      <div class="profile-line">📄 <a href="#">CV</a></div>
+      <div class="profile-line">✉️ lxdu@stu.suda.edu.cn<a href="mailto:lxdu@stu.suda.edu.cn">Email</a></div>
+      <div class="profile-line">🐙 https://github.com/succoney<a href="https://github.com/succoney">Github</a></div>
     </aside>
 
     <main class="content">
@@ -359,13 +355,11 @@ title: Linxuan Du
 
         <p>
           I am <strong>Linxuan Du</strong>, a student / researcher interested in
-          <strong>Large Language Models</strong>, <strong>LLM Agents</strong>,
-          <strong>Agent Memory</strong>, and <strong>Natural Language Processing</strong>.
+          <strong>Large Language Models</strong>,<strong>LLM Reasoning</strong>, <strong>LLM Agents</strong>, and <strong>Natural Language Processing</strong>.
         </p>
 
         <p>
-          My research focuses on building reliable and capable language agents that can
-          reason, learn from experience, use tools, and solve complex tasks.
+          My research focuses on enhance the capability to complete difficult problem of LLM / Agent by reflection and memory.
         </p>
 
         <p>
