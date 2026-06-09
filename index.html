@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Linxuan Du | Homepage</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar {
+      height: 48px;
+      border-bottom: 1px solid #e5e5e5;
+      display: flex;
+      align-items: center;
+      padding: 0 80px;
+      gap: 34px;
+      font-size: 13px;
+      position: sticky;
+      top: 0;
+      background: white;
+      z-index: 10;
+    }
+
+    .navbar a {
+      color: #333;
+      font-weight: 500;
+    }
+
+    .page {
+      display: flex;
+      max-width: 1180px;
+      margin: 36px auto;
+      padding: 0 24px;
+      gap: 56px;
+    }
+
+    .sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      text-align: left;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .title {
+      font-size: 14px;
+      margin-bottom: 14px;
+      color: #333;
+    }
+
+    .sidebar p {
+      margin: 8px 0;
+    }
+
+    .sidebar-links {
+      margin-top: 18px;
+    }
+
+    .sidebar-links a {
+      display: block;
+      margin: 8px 0;
+      color: #333;
+    }
+
+    .content {
+      flex: 1;
+      max-width: 900px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 0 0 18px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin-top: 8px;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    .pub {
+      display: flex;
+      gap: 24px;
+      padding: 28px 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .pub-img {
+      width: 330px;
+      height: 160px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      flex-shrink: 0;
+      background: #f3f3f3;
+    }
+
+    .pub-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .authors {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .tldr {
+      margin: 8px 0;
+    }
+
+    .badges {
+      margin-top: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 3px;
+      color: white;
+      font-size: 12px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      background: #555;
+    }
+
+    .badge.paper { background: #d2691e; }
+    .badge.code { background: #1f77b4; }
+    .badge.github { background: #333; }
+    .badge.model { background: #4caf50; }
+    .badge.hf { background: #f4a900; }
+
+    .small-pubs li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 24px 0;
+      color: #777;
+      font-size: 13px;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    @media (max-width: 850px) {
+      .navbar {
+        padding: 0 20px;
+        gap: 14px;
+        overflow-x: auto;
+      }
+
+      .page {
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .sidebar {
+        width: 100%;
+        text-align: center;
+      }
+
+      .avatar {
+        margin: 0 auto 16px;
+      }
+
+      .pub {
+        flex-direction: column;
+      }
+
+      .pub-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="#home">Homepage</a>
+    <a href="#about">About Me</a>
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+    <a href="#honors">Honors and Awards</a>
+    <a href="#education">Educations</a>
+    <a href="#talks">Invited Talks</a>
+    <a href="#internships">Internships</a>
+  </nav>
+
+  <div class="page" id="home">
+
+    <aside class="sidebar">
+      <!-- 把你的头像上传到 assets/profile.jpg -->
+      <img class="avatar" src="assets/profile.jpg" alt="Profile Photo">
+
+      <div class="name">Linxuan Du</div>
+
+      <div class="title">
+        Ph.D. Student<br>
+        ML/NLP Researcher
+      </div>
+
+      <p>📍 Shanghai, China</p>
+
+      <div class="sidebar-links">
+        <a href="mailto:your_email@example.com">✉️ Email</a>
+        <a href="https://github.com/succoney">💻 GitHub</a>
+        <a href="#">🎓 Google Scholar</a>
+        <a href="#">📄 CV</a>
+      </div>
+    </aside>
+
+    <main class="content">
+
+      <section id="about">
+        <h2>🎓 About Me</h2>
+
+        <p>
+          I am <strong>Linxuan Du</strong>, a student interested in
+          <strong>Large Language Model Agents</strong>,
+          <strong>Agent Memory</strong>, and
+          <strong>Skill Learning</strong>.
+        </p>
+
+        <p>
+          My research interests lie in <strong>LLM Reasoning</strong>,
+          <strong>Agentic AI</strong>, <strong>Memory-Augmented Agents</strong>,
+          and <strong>Robust Reward Modeling</strong>.
+        </p>
+
+        <p>
+          I am currently working on how agents can better utilize past experiences,
+          retrieve useful skills, and solve complex long-horizon tasks.
+        </p>
+
+        <h3>Research Experience</h3>
+
+        <p>
+          <strong>Research Intern / Student Researcher</strong>
+        </p>
+
+        <ul>
+          <li>
+            Agent Memory and Experience Utilization
+            <ul>
+              <li>Experience extraction from historical trajectories.</li>
+              <li>Memory organization and retrieval for long-horizon agents.</li>
+              <li>Skill-based planning and tool-use reasoning.</li>
+            </ul>
+          </li>
+
+          <li>
+            LLM Reasoning and Skill Learning
+            <ul>
+              <li>Reasoning process optimization for language model agents.</li>
+              <li>Skill library construction and skill retrieval.</li>
+              <li>Robust evaluation of skill-augmented agents.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>📝 Publications</h2>
+
+        <p><strong>*</strong> denotes equal contribution.</p>
+
+        <div class="pub">
+          <!-- 把论文图片上传到 assets/pub1.png -->
+          <img class="pub-img" src="assets/pub1.png" alt="Paper Figure">
+
+          <div>
+            <div class="pub-title">
+              <a href="#">Paper Title: A Method for Improving LLM Agents with Memory and Skills</a>
+            </div>
+
+            <div class="authors">
+              Linxuan Du, Author A, Author B, Author C
+            </div>
+
+            <div>
+              Conference Name, 2026
+            </div>
+
+            <p class="tldr">
+              <strong>TL;DR:</strong>
+              We propose a framework that enables LLM agents to retrieve,
+              summarize, and reuse past experiences for complex task solving.
+            </p>
+
+            <div class="badges">
+              <a class="badge paper" href="#">Paper</a>
+              <a class="badge github" href="#">GitHub</a>
+              <a class="badge code" href="#">Code</a>
+              <a class="badge hf" href="#">HuggingFace</a>
+              <a class="badge model" href="#">Models</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <img class="pub-img" src="assets/pub2.png" alt="Paper Figure">
+
+          <div>
+            <div class="pub-title">
+              <a href="#">Another Paper: Skill-Augmented Agents for Long-Horizon Reasoning</a>
+            </div>
+
+            <div class="authors">
+              Linxuan Du, Author A, Author B
+            </div>
+
+            <div>
+              Conference / Workshop Name, 2025
+            </div>
+
+            <p class="tldr">
+              <strong>TL;DR:</strong>
+              We study how skill libraries can improve agent planning,
+              reasoning, and tool usage.
+            </p>
+
+            <div class="badges">
+              <a class="badge paper" href="#">Paper</a>
+              <a class="badge github" href="#">GitHub</a>
+              <a class="badge code" href="#">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <img class="pub-img" src="assets/pub3.png" alt="Paper Figure">
+
+          <div>
+            <div class="pub-title">
+              <a href="#">Robust Process Reward Modeling for Agent Reasoning</a>
+            </div>
+
+            <div class="authors">
+              Linxuan Du, Author A, Author B, Author C
+            </div>
+
+            <div>
+              Preprint, 2025
+            </div>
+
+            <p class="tldr">
+              <strong>TL;DR:</strong>
+              We investigate fine-grained reward assignment for improving
+              reasoning and exploration ability in LLM agents.
+            </p>
+
+            <div class="badges">
+              <a class="badge paper" href="#">Paper</a>
+              <a class="badge github" href="#">GitHub</a>
+              <a class="badge code" href="#">Code</a>
+              <a class="badge model" href="#">Models</a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="small-pubs">
+          <li>
+            <strong>ACL 2025</strong>
+            <a href="#">Paper Title for a Smaller Publication Entry</a>,
+            Linxuan Du, Author A, Author B.
+            <a class="badge paper" href="#">Paper</a>
+            <a class="badge code" href="#">Code</a>
+          </li>
+
+          <li>
+            <strong>EMNLP 2024</strong>
+            <a href="#">Another Short Publication Entry</a>,
+            Author A, Linxuan Du, Author B.
+            <a class="badge paper" href="#">Paper</a>
+            <a class="badge github" href="#">GitHub</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="honors">
+        <h2>🏆 Honors and Awards</h2>
+
+        <ul>
+          <li>National Scholarship</li>
+          <li>Outstanding Student Award</li>
+          <li>Programming Contest Award, Gold Medal</li>
+          <li>Academic Excellence Award</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>📖 Educations</h2>
+
+        <ul>
+          <li>
+            <strong>2023.09 - Present</strong>,
+            Ph.D. / Master / Undergraduate Student,
+            Your University
+          </li>
+
+          <li>
+            <strong>2019.09 - 2023.06</strong>,
+            B.Eng. / B.Sc.,
+            Your Previous University
+          </li>
+        </ul>
+      </section>
+
+      <section id="talks">
+        <h2>🎤 Invited Talks</h2>
+
+        <ul>
+          <li>
+            <strong>2026.01</strong>,
+            Talk Title,
+            Institution / Conference.
+          </li>
+        </ul>
+      </section>
+
+      <section id="internships">
+        <h2>💻 Internships</h2>
+
+        <ul>
+          <li>
+            <strong>2025.06 - Present</strong>,
+            Research Intern,
+            Company / Lab Name,
+            Shanghai, China.
+          </li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>📌 News</h2>
+
+        <ul>
+          <li><strong>2026.01</strong>: Personal homepage launched.</li>
+          <li><strong>2025.12</strong>: One paper accepted by Conference Name.</li>
+          <li><strong>2025.09</strong>: Started research on LLM agent memory.</li>
+        </ul>
+      </section>
+
+      <footer>
+        © 2026 Linxuan Du. Last updated: 2026.
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
