@@ -342,7 +342,7 @@ title: Linxuan Du
       <p class="role"><strong>LLM Researcher</strong></p>
 
       <div class="profile-line">📍 Suzhou, China</div>
-      <div class="profile-line">✉️ <a href="mailto:lxdu@stu.suda.edu.cn">lxdu@stu.suda.edu.cn</a></div>
+      <div class="profile-line">✉️ <a href="mailto:lxdu@stu.suda.edu.cn">Mail</a></div>
       <div class="profile-line">🐙 <a href="https://github.com/succoney">Github</a></div>
     </aside>
 
@@ -378,8 +378,7 @@ title: Linxuan Du
       <section id="news">
         <h2>📰 News</h2>
         <ul>
-          <li><strong>2026.04</strong>: The paper titled "Escaping the Echo Trap ..." was received on ACL 2026 MainConference</li>
-          <li><strong>2026.03</strong>: Started research on LLM agents and agent memory.</li>
+          <li><strong>2026.04</strong>: One paper was received in ACL 2026 MainConference</li>
         </ul>
       </section>
 
@@ -409,94 +408,10 @@ title: Linxuan Du
             </p>
 
             <div class="badges">
-              <a class="badge arxiv" href="#">arXiv</a>
-              <a class="badge paper" href="#">Paper</a>
-              <a class="badge github" href="#">GitHub</a>
-              <a class="badge code" href="#">Code</a>
-              <a class="badge model" href="#">Models</a>
+              <a class="badge paper" href="https://openreview.net/pdf?id=atBMtLTi5D">Paper</a>
+              <a class="badge github" href="https://github.com/Flowersea37/TRAE">GitHub</a>
             </div>
           </div>
-        </div>
-
-        <div class="publication">
-          <div class="pub-img">
-            Paper Figure 2
-            <!-- <img src="assets/img/pub2.png" alt="Paper Figure 2"> -->
-          </div>
-
-          <div>
-            <div class="pub-title">
-              <a href="#">Agent Memory: Learning from Past Experiences for Long-Horizon Tasks</a>
-            </div>
-
-            <div class="pub-authors">
-              Author A, <strong>Linxuan Du</strong>, Author C
-            </div>
-
-            <p class="pub-desc">
-              <strong>TL;DR:</strong> We study how language agents can store, retrieve,
-              and reuse past experiences to improve long-horizon problem solving.
-            </p>
-
-            <div class="badges">
-              <a class="badge arxiv" href="#">arXiv</a>
-              <a class="badge paper" href="#">Paper</a>
-              <a class="badge github" href="#">GitHub</a>
-              <a class="badge code" href="#">Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="publication">
-          <div class="pub-img">
-            Paper Figure 3
-            <!-- <img src="assets/img/pub3.png" alt="Paper Figure 3"> -->
-          </div>
-
-          <div>
-            <div class="pub-title">
-              <a href="#">Skill-Augmented Agents: Planning and Tool Use with Reusable Skills</a>
-            </div>
-
-            <div class="pub-authors">
-              <strong>Linxuan Du</strong>, Author B, Author C
-            </div>
-
-            <p class="pub-desc">
-              <strong>TL;DR:</strong> We introduce a skill-augmented framework that helps
-              agents retrieve, plan, and execute reusable skills.
-            </p>
-
-            <div class="badges">
-              <a class="badge arxiv" href="#">arXiv</a>
-              <a class="badge paper" href="#">Paper</a>
-              <a class="badge github" href="#">GitHub</a>
-              <a class="badge code" href="#">Code</a>
-              <a class="badge model" href="#">Models</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="compact-pub">
-          • <strong>[ACL 2025]</strong>
-          <a href="#">Another Research Paper Title Goes Here</a>,
-          Author A, <strong>Linxuan Du</strong>, Author C.
-          <span class="badges">
-            <a class="badge arxiv" href="#">arXiv</a>
-            <a class="badge paper" href="#">Paper</a>
-            <a class="badge code" href="#">Code</a>
-          </span>
-        </div>
-
-        <div class="compact-pub">
-          • <strong>[EMNLP 2024]</strong>
-          <a href="#">Robust Learning Against Textual Label Noise</a>,
-          Author A, <strong>Linxuan Du</strong>, Author B.
-          <span class="badges">
-            <a class="badge arxiv" href="#">arXiv</a>
-            <a class="badge paper" href="#">Paper</a>
-            <a class="badge github" href="#">GitHub</a>
-          </span>
         </div>
 
       </section>
@@ -505,10 +420,10 @@ title: Linxuan Du
         <h2>🏆 Honors and Awards</h2>
 
         <ul class="award-list">
-          <li>National Scholarship</li>
-          <li>Outstanding Student Award</li>
-          <li>Programming Contest, Gold Medal</li>
-          <li>Research Innovation Award</li>
+          <li>LanqiaoCup Programming Competition - Second Prize (National Level, Individual Competition)</li>
+          <li>Computer Design Competition of China - Thrid Prize (National Level, Artificial Intelligence Track)</li>
+          <li>Core members of national-level college student innovation and entrepreneurship projects(National Level) - Second Member</li>
+          <li>Soochow University Innovation and Entrepreneurship Special Scholarship</li>
         </ul>
       </section>
 
@@ -517,44 +432,17 @@ title: Linxuan Du
 
         <ul class="education-list">
           <li>
-            <strong>2023.09 - Present</strong>, Ph.D. / Master Student,
-            School / Institute, Your University
+            <strong>2021.09 - Present</strong>, Master Student,
+            Artificial Intelligence Research Institute, Soochw University
           </li>
           <li>
-            <strong>2019.09 - 2023.06</strong>, B.Eng. / B.Sc.,
-            School of Computer Science and Technology, Your University
+            <strong>2021.09 - 2025.06</strong>, B.Eng.,
+            School of Computer Science and Technology, Soochow University
           </li>
         </ul>
       </section>
 
-      <section id="talks">
-        <h2>🎤 Invited Talks</h2>
-
-        <ul>
-          <li>
-            <strong>2026.01</strong>, Talk Title, Workshop / Seminar Name.
-          </li>
-          <li>
-            <strong>2025.10</strong>, Talk Title, Research Group Meeting.
-          </li>
-        </ul>
-      </section>
-
-      <section id="internships">
-        <h2>💻 Internships</h2>
-
-        <ul class="internship-list">
-          <li>
-            <strong>2025.06 - Present</strong>, Research Intern,
-            Your Company / Lab, Shanghai, China.
-          </li>
-          <li>
-            <strong>2024.07 - 2024.12</strong>, Research Assistant,
-            Your University / Institute.
-          </li>
-        </ul>
-      </section>
-
+      
       <footer>
         © 2026 Linxuan Du. Last updated: 2026.01.
       </footer>
